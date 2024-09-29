@@ -35,16 +35,6 @@
 			path = 123;
 			sourceTree = "<group>";
 		};
-		B70C5A812CA5A02D0096DB41 /* 123Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 123Tests;
-			sourceTree = "<group>";
-		};
-		B70C5A8B2CA5A02D0096DB41 /* 123UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 123UITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				B70C5A702CA5A02C0096DB41 /* 123 */,
-				B70C5A812CA5A02D0096DB41 /* 123Tests */,
-				B70C5A8B2CA5A02D0096DB41 /* 123UITests */,
 				B70C5A6F2CA5A02C0096DB41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				B70C5A802CA5A02D0096DB41 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B70C5A812CA5A02D0096DB41 /* 123Tests */,
-			);
 			name = 123Tests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				B70C5A8A2CA5A02D0096DB41 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B70C5A8B2CA5A02D0096DB41 /* 123UITests */,
 			);
 			name = 123UITests;
 			packageProductDependencies = (
